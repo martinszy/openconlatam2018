@@ -1,0 +1,608 @@
+{
+  "_id": "5b916f45940a522ac9277692",
+  "uri": "https://api.datos.gob.mx/v2/contratacionesabiertas?records.ocid=ocds-07smqs-1035",
+  "version": "1.1",
+  "extensions": [
+    "https://raw.githubusercontent.com/open-contracting/ocds_location_extension/v1.1.1/extension.json",
+    "https://raw.githubusercontent.com/open-contracting/ocds_additionalContactPoints_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting/ocds_budget_breakdown_extension/master/extension.json",
+    "https://raw.githubusercontent.com/open-contracting/ocds_contract_suppliers_extension/master/extension.json",
+    "https://raw.githubusercontent.com/CompraNet/ocds_releasePublisher_extension/master/extension.json",
+    "https://raw.githubusercontent.com/CompraNet/ocds_schemeUrl_extension/master/extension.json"
+  ],
+  "license": "https://datos.gob.mx/libreusomx",
+  "publicationPolicy": "https://compranetinfo.funcionpublica.gob.mx/descargas/politica-publicacion-EDCA-MX.pdf",
+  "publishedDate": "2018-09-06T18:17:36.892420Z",
+  "publisher": {
+    "name": "SECRETARÍA DE LA FUNCIÓN PÚBLICA / SECRETARIA DE HACIENDA Y CRÉDITO PÚBLICO",
+    "uri": "http://www.gob.mx/contratacionesabiertas/"
+  },
+  "records": [
+    {
+      "compiledRelease": {
+        "planning": {
+          "budget": {
+            "budgetBreakdown": [
+              {
+                "budgetclassifications": [
+                  {
+                    "Measures": [
+                      {
+                        "value": {
+                          "currency": "MXN",
+                          "amount": 0
+                        },
+                        "id": "Aprobado"
+                      }
+                    ],
+                    "levelLabel": "Fuente de Financiamiento",
+                    "level": 1,
+                    "description": "Recursos fiscales",
+                    "classifications": "financialSource",
+                    "id": "1"
+                  },
+                  {
+                    "Measures": [
+                      {
+                        "value": {
+                          "currency": "MXN",
+                          "amount": 0
+                        },
+                        "id": "Aprobado"
+                      }
+                    ],
+                    "levelLabel": "Unidad Responsable",
+                    "level": 2,
+                    "description": "Servicio de Administración Tributaria",
+                    "classifications": "Administrative",
+                    "id": "06E00"
+                  },
+                  {
+                    "Measures": [
+                      {
+                        "value": {
+                          "currency": "MXN",
+                          "amount": 0
+                        },
+                        "id": "Aprobado"
+                      }
+                    ],
+                    "levelLabel": "Partida Específica",
+                    "level": 4,
+                    "description": "Fletes y maniobras",
+                    "classifications": "Economic",
+                    "id": "34701"
+                  }
+                ],
+                "url": "http://nptp.hacienda.gob.mx/programas/jsp/programas/fichaPrograma.jsp?id=06E025",
+                "description": "Control de la operación aduanera",
+                "id": "06E025"
+              }
+            ]
+          }
+        },
+        "parties": [
+          {
+            "roles": [
+              "buyer"
+            ],
+            "identifier": {
+              "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx",
+              "scheme": "MX-CPA",
+              "legalName": "Servicio de Administración Tributaria",
+              "id": "06E00"
+            },
+            "contactPoint": {
+              "name": "Juan Carlos Fragoso Hernandez"
+            },
+            "name": "Servicio de Administración Tributaria",
+            "additionalIdentifiers": [
+              {
+                "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx",
+                "legalName": "Hacienda y Crédito Público",
+                "id": "06",
+                "scheme": "MX-CPA"
+              }
+            ],
+            "id": "06E00"
+          },
+          {
+            "roles": [
+              "supplier"
+            ],
+            "identifier": {
+              "schemeUrl": "https://portalsat.plataforma.sat.gob.mx/ConsultaRFC/",
+              "scheme": "MX-RFC",
+              "legalName": "GRUAS FLETES Y MANIOBRAS SA DE CV",
+              "id": "GFM010122DZ9"
+            },
+            "contactPoint": {
+              "name": "N/A"
+            },
+            "name": "GRUAS FLETES Y MANIOBRAS SA DE CV",
+            "id": "GFM010122DZ9"
+          }
+        ],
+        "contracts": [
+          {
+            "implementation": {
+              "budgetBreakdown": [
+                {
+                  "budgetClassification": [
+                    {
+                      "measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Comprometido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Devengado"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Ejercido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Pagado"
+                        }
+                      ],
+                      "levelLabel": "Fuente de Financiamiento",
+                      "levelId": 1,
+                      "description": "Recursos fiscales",
+                      "classification": "financialSource",
+                      "id": "1"
+                    },
+                    {
+                      "measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Comprometido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Devengado"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Ejercido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Pagado"
+                        }
+                      ],
+                      "levelLabel": "Unidad Responsable",
+                      "levelId": 2,
+                      "description": "Servicio de Administración Tributaria",
+                      "classification": "Administrat  ive",
+                      "id": "06E00"
+                    },
+                    {
+                      "measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Comprometido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Devengado"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Ejercido"
+                        },
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 10440
+                          },
+                          "id": "Pagado"
+                        }
+                      ],
+                      "levelLabel": "Partida Específica",
+                      "levelId": 4,
+                      "description": "Fletes y maniobras",
+                      "classification": "Economic",
+                      "id": "34701"
+                    }
+                  ],
+                  "url": "http://nptp.hacienda.gob.mx/programas/jsp/programas/fichaPrograma.jsp?id=06E025",
+                  "description": "Control de la operación aduanera",
+                  "id": "06E025"
+                }
+              ]
+            },
+            "suppliers": [
+              {
+                "name": "GRUAS FLETES Y MANIOBRAS SA DE CV",
+                "id": "GFM010122DZ9"
+              }
+            ],
+            "buyers": [
+              {
+                "name": "Servicio de Administración Tributaria",
+                "id": "06E00"
+              }
+            ],
+            "valueWithTax": {
+              "currency": "MXN",
+              "amount": 10440
+            },
+            "period": {
+              "startDate": "2017-03-06T00:00:00Z",
+              "endDate": "2017-03-07T23:59:59Z",
+              "durationInDays": 1
+            },
+            "contractDetails": {
+              "originalCurrencyValue": {
+                "exchangeRate": "1",
+                "currency": "MXN",
+                "amount": 10440
+              },
+              "minValue": {
+                "currency": "MXN",
+                "amount": 10440
+              },
+              "maxValue": {
+                "currency": "MXN",
+                "amount": 10440
+              },
+              "priceScheme": "Fijos",
+              "multiyear": false,
+              "contractType": "Cerrado"
+            },
+            "title": ".",
+            "dateSigned": "2017-03-06T00:00:00Z",
+            "awardID": "1035",
+            "id": "201706013146"
+          }
+        ],
+        "tender": {
+          "id": "1035"
+        },
+        "publisher": {
+          "uri": "http://www.gob.mx/shcp",
+          "uid": "00000",
+          "name": "SECRETARÍA DE HACIENDA Y CRÉDITO PÚBLICO"
+        },
+        "ocid": "ocds-07smqs-1035",
+        "language": "es",
+        "initiationType": "tender",
+        "id": "1035-shcp-20180424113245",
+        "date": "2018-04-24T11:32:45Z",
+        "ciclo": 2017,
+        "tag": [
+          "compiled"
+        ]
+      },
+      "releases": [
+        {
+          "language": "es",
+          "contracts": [
+            {
+              "implementation": {
+                "budgetBreakdown": [
+                  {
+                    "url": "http://nptp.hacienda.gob.mx/programas/jsp/programas/fichaPrograma.jsp?id=06E025",
+                    "budgetClassification": [
+                      {
+                        "measures": [
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Comprometido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Devengado"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Ejercido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Pagado"
+                          }
+                        ],
+                        "description": "Recursos fiscales",
+                        "id": "1",
+                        "levelLabel": "Fuente de Financiamiento",
+                        "levelId": 1,
+                        "classification": "financialSource"
+                      },
+                      {
+                        "measures": [
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Comprometido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Devengado"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Ejercido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Pagado"
+                          }
+                        ],
+                        "description": "Servicio de Administración Tributaria",
+                        "id": "06E00",
+                        "levelLabel": "Unidad Responsable",
+                        "levelId": 2,
+                        "classification": "Administrative"
+                      },
+                      {
+                        "measures": [
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Comprometido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Devengado"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Ejercido"
+                          },
+                          {
+                            "value": {
+                              "currency": "MXN",
+                              "amount": 10440
+                            },
+                            "id": "Pagado"
+                          }
+                        ],
+                        "description": "Fletes y maniobras",
+                        "id": "34701",
+                        "levelLabel": "Partida Específica",
+                        "levelId": 4,
+                        "classification": "Economic"
+                      }
+                    ],
+                    "description": "Control de la operación aduanera",
+                    "id": "06E025"
+                  }
+                ]
+              },
+              "contractDetails": {
+                "originalCurrencyValue": {
+                  "exchangeRate": "1",
+                  "currency": "MXN",
+                  "amount": 10440
+                },
+                "maxValue": {
+                  "currency": "MXN",
+                  "amount": 10440
+                },
+                "minValue": {
+                  "currency": "MXN",
+                  "amount": 10440
+                },
+                "priceScheme": "Fijos",
+                "contractType": "Cerrado",
+                "multiyear": false
+              },
+              "dateSigned": "2017-03-06T00:00:00Z",
+              "suppliers": [
+                {
+                  "id": "GFM010122DZ9",
+                  "name": "GRUAS FLETES Y MANIOBRAS SA DE CV"
+                }
+              ],
+              "buyers": [
+                {
+                  "id": "06E00",
+                  "name": "Servicio de Administración Tributaria"
+                }
+              ],
+              "valueWithTax": {
+                "currency": "MXN",
+                "amount": 10440
+              },
+              "period": {
+                "durationInDays": 1,
+                "endDate": "2017-03-07T23:59:59Z",
+                "startDate": "2017-03-06T00:00:00Z"
+              },
+              "title": ".",
+              "awardID": "1035",
+              "id": "201706013146"
+            }
+          ],
+          "tender": {
+            "id": "1035"
+          },
+          "planning": {
+            "budget": {
+              "budgetBreakdown": [
+                {
+                  "url": "http://nptp.hacienda.gob.mx/programas/jsp/programas/fichaPrograma.jsp?id=06E025",
+                  "budgetclassifications": [
+                    {
+                      "Measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 0
+                          },
+                          "id": "Aprobado"
+                        }
+                      ],
+                      "description": "Recursos fiscales",
+                      "id": "1",
+                      "levelLabel": "Fuente de Financiamiento",
+                      "level": 1,
+                      "classifications": "financialSource"
+                    },
+                    {
+                      "Measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 0
+                          },
+                          "id": "Aprobado"
+                        }
+                      ],
+                      "description": "Servicio de Administración Tributaria",
+                      "id": "06E00",
+                      "levelLabel": "Unidad Responsable",
+                      "level": 2,
+                      "classifications": "Administrative"
+                    },
+                    {
+                      "Measures": [
+                        {
+                          "value": {
+                            "currency": "MXN",
+                            "amount": 0
+                          },
+                          "id": "Aprobado"
+                        }
+                      ],
+                      "description": "Fletes y maniobras",
+                      "id": "34701",
+                      "levelLabel": "Partida Específica",
+                      "level": 4,
+                      "classifications": "Economic"
+                    }
+                  ],
+                  "description": "Control de la operación aduanera",
+                  "id": "06E025"
+                }
+              ]
+            }
+          },
+          "parties": [
+            {
+              "roles": [
+                "buyer"
+              ],
+              "contactPoint": {
+                "name": "Juan Carlos Fragoso Hernandez"
+              },
+              "additionalIdentifiers": [
+                {
+                  "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx",
+                  "legalName": "Hacienda y Crédito Público",
+                  "id": "06",
+                  "scheme": "MX-CPA"
+                }
+              ],
+              "identifier": {
+                "schemeUrl": "http://www.transparenciapresupuestaria.gob.mx/work/models/PTP/DatosAbiertos/Metadatos/catalogos_presupuestarios.xlsx",
+                "legalName": "Servicio de Administración Tributaria",
+                "id": "06E00",
+                "scheme": "MX-CPA"
+              },
+              "id": "06E00",
+              "name": "Servicio de Administración Tributaria"
+            },
+            {
+              "roles": [
+                "supplier"
+              ],
+              "contactPoint": {
+                "name": "N/A"
+              },
+              "identifier": {
+                "schemeUrl": "https://portalsat.plataforma.sat.gob.mx/ConsultaRFC/",
+                "legalName": "GRUAS FLETES Y MANIOBRAS SA DE CV",
+                "id": "GFM010122DZ9",
+                "scheme": "MX-RFC"
+              },
+              "id": "GFM010122DZ9",
+              "name": "GRUAS FLETES Y MANIOBRAS SA DE CV"
+            }
+          ],
+          "initiationType": "tender",
+          "tag": [
+            "contract"
+          ],
+          "ciclo": 2017,
+          "date": "2018-04-24T11:32:45Z",
+          "id": "1035-shcp-20180424113245",
+          "ocid": "ocds-07smqs-1035",
+          "publisher": {
+            "uri": "http://www.gob.mx/shcp",
+            "name": "SECRETARÍA DE HACIENDA Y CRÉDITO PÚBLICO",
+            "uid": "00000"
+          }
+        }
+      ]
+    }
+  ]
+}
